@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body {
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+}
+
+</style>   
+</head>
+
+<body>
+    <div class="dictionary">
+        <h1> dictionary app</h1>
+        <input type="text" placeholder="nhập từ muốn tìm" id="searchInput"><button onclick="search()">Dịch</button>
+        <p class="text"></p>
+       
+      <ul id="transelatelist">
+           <!-- <li><button onclick="edit()">sửa </button>
+               <button onclick="del()">xóa</button></li> -->
+       </ul></div>
+     
+  
+    <script src="/dist/dictionary.js"></script>
+</body>
+</html>
